@@ -48,8 +48,9 @@ let students = {
         }
     }
 }
-
-
+const getData2 = students[2222].address.city;
+const getData3 = students[3333].name;
+console.log(getData2, getData3);
 // task-3 : access and then show habluder adda
 // show output Beginner
 let data2 = {
