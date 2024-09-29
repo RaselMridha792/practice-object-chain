@@ -76,3 +76,7 @@ let data2 = {
             }
         ]
 }
+
+const getData4 = data2.data[0].bookDetails.name;
+const getData5 = data2.data[1].bookCategory;
+console.log(getData4, getData5);
